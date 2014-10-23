@@ -8,7 +8,7 @@ except:
     pass
 def home(request):
 
-    return HttpResponse("<style>h1{color:blue}</style><h1>Djangoduino</h1>")
+    return HttpResponse("<style>h1{color:blue}</style><h1>DjangoArduino</h1>")
 
 def encender(request,estado):
     try:
